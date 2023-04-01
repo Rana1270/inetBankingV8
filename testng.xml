@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="InetBankingV8">
+
+	<listeners>
+		<listener class-name="com.inetbanking.utilities.Reporting" />
+	</listeners>
+	
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!-- <class name="com.inetbanking.testCases.TC_LoginTest_201" />-->
+			<!-- <class name="com.inetbanking.testCases.TC_LoginDDT_202" />-->
+			<!-- <class name="com.inetbanking.testCases.TC_AddCustomerTest_203" />-->
+			<!-- <class name="com.inetbanking.testCases.TC_DeleteCutomerTest_205" />-->
+			<!--<class name="com.inetbanking.testCases.TC_EditCustomerTest_204" /> -->
+			 <class name="com.inetbanking.testCases.TC_AddNewAccountTest_206" />
+			<!-- <class name="com.inetbanking.testCases.TC_DepositeAmountTest_207" />-->
+		</classes>
+	</test>
+</suite>
